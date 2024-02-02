@@ -1,3 +1,5 @@
+//! This file contains the lexer code which tokenizes
+//! all files ending in .ct
 const std = @import("std");
 
 /// Fundamental tokens are keywords, identifiers, literals, operators, and punctuators
@@ -54,7 +56,6 @@ const Token = struct {
 };
 
 pub fn main() !void {
-    // https://youtu.be/HxaD_trXwRE?t=754
     const stdout = std.io.getStdOut().writer();
 
     const my_token = Token{
@@ -62,5 +63,5 @@ pub fn main() !void {
         .value = "test",
     };
 
-    try stdout.print("Value of myToken is {s}\n", .{my_token.value});
+    try stdout.print("Value of the my_token is {s}\n", .{my_token.value});
 }
