@@ -28,7 +28,7 @@ cyto file.cyt
 ./file
 ```
 
-## language features
+## Language Features
 
 ### primitive data types and variables 
 
