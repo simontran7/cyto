@@ -6,15 +6,16 @@ const std = @import("std");
 /// Additional tokens like error, EOF, etc. also useful
 const TokenType = enum {
     // keywords
-    tokenUnVariable,
     tokenIf,
     tokenOrIf,
     tokenOther,
-    tokenUntil,
+    tokenAs,
     tokenFrom,
     tokenFunction,
     tokenEnum,
     tokenStruct,
+    tokenTrue,
+    tokenFalse,
 
     // identifiers
     tokenIdentifier,
@@ -40,6 +41,10 @@ const TokenType = enum {
 
     // punctuators
     tokenDot,
+    tokenLeftBrace,
+    tokenRightBrace,
+    tokenLeftBracket,
+    tokenRightBracket,
 
     // additional
     tokenComment,
