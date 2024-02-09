@@ -18,7 +18,7 @@ make
 1. Create any file ending in `.cyt`
 2. Create a main function
 ```
-pub fn main() {
+fn main() {
   // your code
 }
 ```
