@@ -3,7 +3,7 @@
   <h1>Cyto</h1>
 </div>
 
-A simple general purpose programming language
+A simple garbage-collected and compiled general purpose programming language
 
 ## Installation
 
