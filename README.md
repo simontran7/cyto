@@ -50,7 +50,7 @@ my_character: char = 'a';
 
 my_string: str = "Hello";
 
-my_array: arr[int]: [3, 5, 7, 11];
+my_array: arr[int] = [3, 5, 7, 11];
 ```
 
 ### operators and expressions
