@@ -34,30 +34,48 @@ cyto file.cyt
 
 - `int`: a 32-bit integer
 - `flt`: a 64-bit floating pointer number
+- `bool`: a `True` or `False` boolean value
 - `char`: a 8-bit character
-- `str`: an array of strings
+- `str`: an array of characters
+- `arr[t]`: an array of type *t*
 
 ```
 my_integer: int = 7;
 
 my_float: flt = 4.0;
 
+my_boolean: bool = True;
+
 my_character: char = 'a';
 
 my_string: str = "Hello";
+
+my_array: arr[int]: [3, 5, 7, 11];
 ```
 
-### operators
+### operators and expressions
 
-- `and`: 
-- `or`:
-- `+`: addition operator for adding integers and/or floating points
-- `-`: substraction operator for substracting integers and/or floating points
-- `*`: multiplication operator for multiplying integers and/or floating points
-- `/`: division operator for integers and/or floating points
-- `mod`: modulo operator for integers
+- Arithmetic operators
+    - `+`
+    - `-`
+    - `*`
+    - `/`
+    - `mod`
+- Comparison operators
+  - `==`
+  - `!=`
+  - `<`
+  - `>`
+  - `<=`
+  - `>=`
+- Logical operators
+  - `and`
+  - `or`
+  - `not`
 
-### conditional statements
+### control flow
+
+- conditional statements
 
 ```
 age: int = 5;
@@ -70,14 +88,9 @@ if (age > 100) {
 }
 ```
 
-### loops
+- loops
 
-```
-```
-
-### functions
-
-### structs and enums
+### functions, structures and enums
 
 ### error handling
 
