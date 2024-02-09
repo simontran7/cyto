@@ -90,7 +90,9 @@ if (age > 100) {
 
 - loops
 
-### functions, structures and enums
+### functions
+
+### structures and enums
 
 ### error handling
 
