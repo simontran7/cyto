@@ -88,7 +88,9 @@ if (age > 100) {
 }
 ```
 
-- loops
+- while loop
+
+- for loop
 
 ### functions
 
