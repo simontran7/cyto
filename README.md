@@ -94,6 +94,15 @@ if (age > 100) {
 
 ### functions
 
+```
+fn factorial(n: int) -> int {
+    if (n == 0 or n == 1) {
+        return n;    
+    }
+    return factorial(n - 1) * n;
+}
+```
+
 ### structures and enums
 
 ### error handling
