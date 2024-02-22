@@ -103,7 +103,29 @@ fn factorial(n: int) -> int {
 }
 ```
 
-### structures and enums
+### enums and structures 
+
+```
+enum Colors {
+    Red,
+    Green,
+    Blue,
+    Yellow
+}
+
+struct Bicycle {
+    gears: int;
+    color: Colors(Blue);
+    cost:  flt;
+
+    init(gears, color, cost) {
+        its.gears = gears;
+        its.color = color;
+        its.cost  = cost;
+    }
+}
+```
+
 
 ### error handling
 
