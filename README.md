@@ -118,7 +118,7 @@ struct Bicycle {
     color: Colors(Blue);
     cost:  flt;
 
-    init(gears, color, cost) {
+    initialize(gears, color, cost) {
         its.gears = gears;
         its.color = color;
         its.cost  = cost;
