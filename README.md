@@ -92,6 +92,13 @@ if (age > 100) {
 
 - for loop
 
+```
+my_array: arr[int] = [1, 3, 4, 7, 9];
+from (i = 0; i < my_array.len; i += 1) {
+    print(my_array[i]);
+}
+```
+
 ### functions
 
 ```
