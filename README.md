@@ -94,7 +94,7 @@ if (age > 100) {
 
 ```
 my_array: arr[int] = [1, 3, 4, 7, 9];
-from (i = 0; i < my_array.len; i += 1) {
+from (i = 0) to (i < my_array.len) by (i += 1) {
     print(my_array[i]);
 }
 ```
