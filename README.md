@@ -62,7 +62,7 @@ my_array: arr[int] = [3, 5, 7, 11];
     - `/`
     - `mod`
 - Comparison operators
-  - `==`
+  - `=?`
   - `!=`
   - `<`
   - `>`
